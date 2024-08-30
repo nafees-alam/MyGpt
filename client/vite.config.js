@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "http://localhost:3000",
+        target: "https://my-gpt-backend-iota.vercel.app/",
         changeOrigin: true,
         secure: false,
       },
