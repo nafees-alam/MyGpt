@@ -29,7 +29,6 @@ const Paragraph = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post("/api/v1/openai/paragraph", { text });
-      console.log(data);
       setPara(data);
     } catch (err) {
       console.log(error);

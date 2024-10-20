@@ -31,7 +31,6 @@ const JsConverter = () => {
       const { data } = await axios.post("/api/v1/openai/js-converter", {
         text,
       });
-      console.log(data);
       setCode(data);
     } catch (err) {
       console.log(error);

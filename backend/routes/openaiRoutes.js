@@ -5,7 +5,7 @@ const {
   chatbotController,
   jsconverterController,
   scifiImageController,
-} = require("../controllers/openaiCOntroller");
+} = require("../controllers/openaiCOntroller.js");
 
 const router = express.Router();
 
